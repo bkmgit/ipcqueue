@@ -45,13 +45,15 @@ setup(
     long_description=long_description,
     keywords="sysv posix ipc queue",
     url='https://github.com/seifert/ipcqueue',
-    license="BSD",
+    license="BSD-3-Clause",
+    license-files=[
+        "LICENSE",
+    ],
     classifiers=[
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
-        'License :: OSI Approved :: BSD License',
         'Operating System :: POSIX',
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
